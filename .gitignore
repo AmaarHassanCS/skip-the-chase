@@ -1,0 +1,6 @@
+.qodo
+.vscode
+.dart_tool
+.idea
+build/
+.ssh
