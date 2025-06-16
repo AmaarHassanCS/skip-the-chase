@@ -1,6 +1,34 @@
-.qodo
-.vscode
-.dart_tool
-.idea
+# Dart/Flutter generated files
+.dart_tool/
 build/
+*.g.dart
+*.freezed.dart
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
 .ssh
+
+# Environment and sensitive files
+.env
+*.key
+*.pem
+*.keystore
+*.jks
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Custom folders (only if generated or sensitive)
+.qodo/  # Assuming .qodo is generated; remove if it’s critical
+flutter/  # Assuming typo or non-critical; remove if needed
+
+# macOS-specific
+.DS_Store
+
+# Coverage files
+coverage/
+lcov.info
